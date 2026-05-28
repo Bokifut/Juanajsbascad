@@ -1,0 +1,10 @@
+@startuml
+[*] --> Preparada
+Preparada --> EnCurso: iniciar partida
+EnCurso --> EnCurso: accion valida
+EnCurso --> EnCurso: accion invalida / log error
+EnCurso --> Victoria: jugador llega a salida
+EnCurso --> Derrota: vida == 0
+Victoria --> [*]
+Derrota --> [*]
+@enduml

@@ -1,0 +1,31 @@
+@startuml
+start
+:Elegir direccion;
+:Elegir accion;
+if (Accion valida?) then (si)
+  if (Mover?) then (si)
+    :Validar celda destino;
+    :Mover jugador;
+    if (Hay trampa?) then (si)
+      :Aplicar dano;
+      :Eliminar trampa;
+    endif
+  elseif (Atacar?) then (si)
+    :Buscar enemigo contiguo;
+    :Aplicar dano;
+  elseif (Recoger?) then (si)
+    :Tomar objeto contiguo;
+    :Agregar a inventario;
+  elseif (Abrir puerta?) then (si)
+    :Abrir puerta contigua;
+  else (Usar objeto)
+    :Aplicar efecto de inventario;
+  endif
+  :Registrar log;
+  :Comprobar victoria/derrota;
+else (no)
+  :Mostrar excepcion;
+  :Registrar error en log;
+endif
+stop
+@enduml

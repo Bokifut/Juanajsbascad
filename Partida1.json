@@ -1,0 +1,1761 @@
+{
+  "version": 2,
+  "currentRoomId": "habitacion-0",
+  "finalRoomId": "habitacion-9",
+  "remainingTurns": 492,
+  "movementRemaining": 1,
+  "actionAvailable": true,
+  "finished": false,
+  "won": false,
+  "coins": 4,
+  "difficultyIndex": 2,
+  "aviolentadoTurns": 0,
+  "finalRouteHintBought": false,
+  "player": {
+    "name": "Marco",
+    "row": 2,
+    "column": 3,
+    "health": 20,
+    "maxHealth": 20,
+    "attack": 5,
+    "defense": 0,
+    "movement": 1,
+    "equippedWeaponIndex": 0,
+    "equippedArmorIndex": -1,
+    "inventory": [
+      {
+        "id": "starter-guerrero",
+        "name": "Espada larga",
+        "healing": 0,
+        "maxHealthBonus": 0,
+        "damageBonus": 1,
+        "defenseBonus": 0,
+        "movementBonus": 0,
+        "weaponCombatType": "Cuerpo a cuerpo",
+        "type": "weapon"
+      }
+    ]
+  },
+  "rooms": [
+    {
+      "id": "habitacion-0",
+      "name": "Habitacion 0",
+      "rows": 5,
+      "columns": 5,
+      "cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "type": "door",
+          "open": true,
+          "targetRoomId": "habitacion-12",
+          "targetPosition": {
+            "row": 2,
+            "column": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "type": "door",
+          "open": true,
+          "targetRoomId": "habitacion-13",
+          "targetPosition": {
+            "row": 2,
+            "column": 3
+          }
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-1",
+          "targetPosition": {
+            "row": 3,
+            "column": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-1",
+      "name": "Habitacion 1",
+      "rows": 7,
+      "columns": 7,
+      "cells": [
+        {
+          "row": 0,
+          "column": 3,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-2",
+          "targetPosition": {
+            "row": 7,
+            "column": 4
+          }
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-15",
+          "targetPosition": {
+            "row": 2,
+            "column": 0
+          }
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-0",
+          "targetPosition": {
+            "row": 4,
+            "column": 2
+          }
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "type": "object",
+          "object": {
+            "id": "coin-spawn-1-0",
+            "name": "Moneda",
+            "healing": 1,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "coin"
+          }
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-14",
+          "targetPosition": {
+            "row": 2,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-2",
+      "name": "Habitacion 2",
+      "rows": 8,
+      "columns": 8,
+      "cells": [
+        {
+          "row": 0,
+          "column": 4,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-16",
+          "targetPosition": {
+            "row": 0,
+            "column": 2
+          }
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "type": "object",
+          "object": {
+            "id": "coin-spawn-2-0",
+            "name": "Moneda",
+            "healing": 1,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "coin"
+          }
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-3",
+          "targetPosition": {
+            "row": 4,
+            "column": 7
+          }
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "type": "object",
+          "object": {
+            "id": "coin-spawn-2-1",
+            "name": "Moneda",
+            "healing": 1,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "coin"
+          }
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-17",
+          "targetPosition": {
+            "row": 3,
+            "column": 2
+          }
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-1",
+          "targetPosition": {
+            "row": 0,
+            "column": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-3",
+      "name": "Habitacion 3",
+      "rows": 8,
+      "columns": 8,
+      "cells": [
+        {
+          "row": 0,
+          "column": 4,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-4",
+          "targetPosition": {
+            "row": 7,
+            "column": 4
+          }
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "type": "object",
+          "object": {
+            "id": "armor-4-3",
+            "name": "Armadura De Hierro",
+            "healing": 0,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 3,
+            "movementBonus": 0,
+            "type": "armor"
+          }
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-18",
+          "targetPosition": {
+            "row": 1,
+            "column": 2
+          }
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-2",
+          "targetPosition": {
+            "row": 4,
+            "column": 0
+          }
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-11",
+          "targetPosition": {
+            "row": 0,
+            "column": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-4",
+      "name": "Habitacion 4",
+      "rows": 8,
+      "columns": 8,
+      "cells": [
+        {
+          "row": 0,
+          "column": 4,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-20",
+          "targetPosition": {
+            "row": 1,
+            "column": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "type": "object",
+          "object": {
+            "id": "weapon-3-4",
+            "name": "Hacha De Guerra",
+            "healing": 0,
+            "maxHealthBonus": 0,
+            "damageBonus": 3,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "weaponCombatType": "Cuerpo a cuerpo",
+            "type": "weapon"
+          }
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "type": "object",
+          "object": {
+            "id": "armor-4-4",
+            "name": "Armadura De Hierro",
+            "healing": 0,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 3,
+            "movementBonus": 0,
+            "type": "armor"
+          }
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-5",
+          "targetPosition": {
+            "row": 4,
+            "column": 8
+          }
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-19",
+          "targetPosition": {
+            "row": 5,
+            "column": 3
+          }
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-3",
+          "targetPosition": {
+            "row": 0,
+            "column": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-5",
+      "name": "Habitacion 5",
+      "rows": 9,
+      "columns": 9,
+      "cells": [
+        {
+          "row": 0,
+          "column": 4,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-6",
+          "targetPosition": {
+            "row": 8,
+            "column": 4
+          }
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "type": "object",
+          "object": {
+            "id": "potion-max-5",
+            "name": "Pocion De Vida Maxima",
+            "healing": 5,
+            "maxHealthBonus": 5,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "potion"
+          }
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "type": "trap",
+          "damage": 5
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-22",
+          "targetPosition": {
+            "row": 2,
+            "column": 1
+          }
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "type": "object",
+          "object": {
+            "id": "coin-spawn-5-0",
+            "name": "Moneda",
+            "healing": 1,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "coin"
+          }
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-4",
+          "targetPosition": {
+            "row": 4,
+            "column": 0
+          }
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-3-5-1276874079087000",
+            "name": "Dragon",
+            "level": 1,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 12,
+            "attack": 5,
+            "speed": 2,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-21",
+          "targetPosition": {
+            "row": 0,
+            "column": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-6",
+      "name": "Habitacion 6",
+      "rows": 9,
+      "columns": 9,
+      "cells": [
+        {
+          "row": 0,
+          "column": 4,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-24",
+          "targetPosition": {
+            "row": 0,
+            "column": 2
+          },
+          "requiredKeyId": "llave-demoniaca"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-4-boss",
+            "name": "Ametrallador (BOSS)",
+            "level": 1,
+            "combatType": "A distancia",
+            "health": 22,
+            "attack": 10,
+            "speed": 1,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-7",
+          "targetPosition": {
+            "row": 3,
+            "column": 5
+          }
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-10",
+          "targetPosition": {
+            "row": 2,
+            "column": 0
+          }
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-5",
+          "targetPosition": {
+            "row": 0,
+            "column": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-7",
+      "name": "Habitacion 7",
+      "rows": 6,
+      "columns": 6,
+      "cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-1-7-1276874081037800",
+            "name": "Rata rabiosa",
+            "level": 1,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 6,
+            "attack": 3,
+            "speed": 1,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-1-7-1276874081156800",
+            "name": "Rata rabiosa",
+            "level": 1,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 6,
+            "attack": 3,
+            "speed": 1,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-8",
+          "targetPosition": {
+            "row": 5,
+            "column": 3
+          }
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "type": "object",
+          "object": {
+            "id": "potion-health-7",
+            "name": "Pocion De Vida",
+            "healing": 10,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "potion"
+          }
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-6",
+          "targetPosition": {
+            "row": 4,
+            "column": 0
+          }
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "type": "object",
+          "object": {
+            "id": "coin-spawn-7-0",
+            "name": "Moneda",
+            "healing": 1,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "coin"
+          }
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-23",
+          "targetPosition": {
+            "row": 0,
+            "column": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-8",
+      "name": "Antesala final",
+      "rows": 6,
+      "columns": 6,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "type": "object",
+          "object": {
+            "id": "potion-health-8",
+            "name": "Pocion De Vida",
+            "healing": 10,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "potion"
+          }
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "type": "object",
+          "object": {
+            "id": "potion-health-8",
+            "name": "Pocion De Vida",
+            "healing": 10,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "potion"
+          }
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-9",
+          "targetPosition": {
+            "row": 6,
+            "column": 11
+          }
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-7",
+          "targetPosition": {
+            "row": 0,
+            "column": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-9",
+      "name": "Habitacion final",
+      "rows": 12,
+      "columns": 12,
+      "cells": [
+        {
+          "row": 0,
+          "column": 11,
+          "type": "door",
+          "open": false,
+          "requiredKeyId": "llave-celestial"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-5-final-boss",
+            "name": "Dios Demoniaco Marquette (BOSS FINAL)",
+            "level": 1,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 52,
+            "attack": 16,
+            "speed": 1,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-5-final-boss",
+            "name": "Dios Demoniaco Marquette (BOSS FINAL)",
+            "level": 1,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 52,
+            "attack": 16,
+            "speed": 1,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-5-final-boss",
+            "name": "Dios Demoniaco Marquette (BOSS FINAL)",
+            "level": 1,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 52,
+            "attack": 16,
+            "speed": 1,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-5-final-boss",
+            "name": "Dios Demoniaco Marquette (BOSS FINAL)",
+            "level": 1,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 52,
+            "attack": 16,
+            "speed": 1,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-5-final-boss",
+            "name": "Dios Demoniaco Marquette (BOSS FINAL)",
+            "level": 1,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 52,
+            "attack": 16,
+            "speed": 1,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-5-final-boss",
+            "name": "Dios Demoniaco Marquette (BOSS FINAL)",
+            "level": 1,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 52,
+            "attack": 16,
+            "speed": 1,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-8",
+          "targetPosition": {
+            "row": 3,
+            "column": 0
+          }
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-5-final-boss",
+            "name": "Dios Demoniaco Marquette (BOSS FINAL)",
+            "level": 1,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 52,
+            "attack": 16,
+            "speed": 1,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-5-final-boss",
+            "name": "Dios Demoniaco Marquette (BOSS FINAL)",
+            "level": 1,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 52,
+            "attack": 16,
+            "speed": 1,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-5-final-boss",
+            "name": "Dios Demoniaco Marquette (BOSS FINAL)",
+            "level": 1,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 52,
+            "attack": 16,
+            "speed": 1,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-10",
+      "name": "Sala secundaria 1",
+      "rows": 4,
+      "columns": 4,
+      "cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-3-10-1276874081343200",
+            "name": "Dragon",
+            "level": 2,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 12,
+            "attack": 7,
+            "speed": 2,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "type": "object",
+          "object": {
+            "id": "coin-spawn-10-0",
+            "name": "Moneda",
+            "healing": 1,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "coin"
+          }
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "type": "blacksmith"
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-6",
+          "targetPosition": {
+            "row": 4,
+            "column": 8
+          }
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "type": "trap",
+          "damage": 5
+        }
+      ]
+    },
+    {
+      "id": "habitacion-11",
+      "name": "Sala secundaria 2",
+      "rows": 6,
+      "columns": 6,
+      "cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-1-11-1276874081366000",
+            "name": "Rata rabiosa",
+            "level": 1,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 6,
+            "attack": 3,
+            "speed": 1,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-1-11-1276874081495300",
+            "name": "Rata rabiosa",
+            "level": 2,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 6,
+            "attack": 4,
+            "speed": 1,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-3",
+          "targetPosition": {
+            "row": 7,
+            "column": 4
+          }
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "type": "blacksmith"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "type": "object",
+          "object": {
+            "id": "coin-spawn-11-0",
+            "name": "Moneda",
+            "healing": 1,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "coin"
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-12",
+      "name": "Sala secundaria 3",
+      "rows": 4,
+      "columns": 4,
+      "cells": [
+        {
+          "row": 2,
+          "column": 0,
+          "type": "door",
+          "open": true,
+          "targetRoomId": "habitacion-0",
+          "targetPosition": {
+            "row": 2,
+            "column": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-13",
+      "name": "Sala secundaria 4",
+      "rows": 4,
+      "columns": 4,
+      "cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-2-13-1276874081657000",
+            "name": "Goblin arquero",
+            "level": 2,
+            "combatType": "A distancia",
+            "health": 10,
+            "attack": 5,
+            "speed": 1,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "type": "object",
+          "object": {
+            "id": "coin-spawn-13-0",
+            "name": "Moneda",
+            "healing": 1,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "coin"
+          }
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-0",
+          "targetPosition": {
+            "row": 2,
+            "column": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-14",
+      "name": "Sala secundaria 5",
+      "rows": 3,
+      "columns": 3,
+      "cells": [
+        {
+          "row": 2,
+          "column": 1,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-1",
+          "targetPosition": {
+            "row": 6,
+            "column": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-15",
+      "name": "Sala secundaria 6",
+      "rows": 4,
+      "columns": 4,
+      "cells": [
+        {
+          "row": 1,
+          "column": 1,
+          "type": "object",
+          "object": {
+            "id": "coin-spawn-15-0",
+            "name": "Moneda",
+            "healing": 2,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "coin"
+          }
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-1",
+          "targetPosition": {
+            "row": 3,
+            "column": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "type": "trap",
+          "damage": 5
+        }
+      ]
+    },
+    {
+      "id": "habitacion-16",
+      "name": "Sala secundaria 7",
+      "rows": 5,
+      "columns": 5,
+      "cells": [
+        {
+          "row": 0,
+          "column": 2,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-2",
+          "targetPosition": {
+            "row": 0,
+            "column": 4
+          }
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "type": "object",
+          "object": {
+            "id": "armor-1-16",
+            "name": "Armadura Roja",
+            "healing": 0,
+            "maxHealthBonus": 5,
+            "damageBonus": 0,
+            "defenseBonus": 1,
+            "movementBonus": 0,
+            "type": "armor"
+          }
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "type": "object",
+          "object": {
+            "id": "potion-max-16",
+            "name": "Pocion De Vida Maxima",
+            "healing": 5,
+            "maxHealthBonus": 5,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "potion"
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-17",
+      "name": "Sala secundaria 8",
+      "rows": 4,
+      "columns": 4,
+      "cells": [
+        {
+          "row": 2,
+          "column": 1,
+          "type": "object",
+          "object": {
+            "id": "coin-spawn-17-0",
+            "name": "Moneda",
+            "healing": 1,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "coin"
+          }
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-2",
+          "targetPosition": {
+            "row": 4,
+            "column": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-18",
+      "name": "Sala secundaria 9",
+      "rows": 3,
+      "columns": 3,
+      "cells": [
+        {
+          "row": 1,
+          "column": 2,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-3",
+          "targetPosition": {
+            "row": 4,
+            "column": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-19",
+      "name": "Sala secundaria 10",
+      "rows": 6,
+      "columns": 6,
+      "cells": [
+        {
+          "row": 1,
+          "column": 4,
+          "type": "object",
+          "object": {
+            "id": "coin-spawn-19-0",
+            "name": "Moneda",
+            "healing": 2,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "type": "coin"
+          }
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-4",
+          "targetPosition": {
+            "row": 4,
+            "column": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-20",
+      "name": "Sala secundaria 11",
+      "rows": 3,
+      "columns": 3,
+      "cells": [
+        {
+          "row": 1,
+          "column": 0,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-4",
+          "targetPosition": {
+            "row": 0,
+            "column": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-21",
+      "name": "Sala secundaria 12",
+      "rows": 6,
+      "columns": 6,
+      "cells": [
+        {
+          "row": 0,
+          "column": 3,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-5",
+          "targetPosition": {
+            "row": 8,
+            "column": 4
+          }
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "type": "object",
+          "object": {
+            "id": "potion-defense-21",
+            "name": "Pocion De Defensa",
+            "healing": 0,
+            "maxHealthBonus": 0,
+            "damageBonus": 0,
+            "defenseBonus": 1,
+            "movementBonus": 0,
+            "type": "potion"
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-22",
+      "name": "Sala secundaria 13",
+      "rows": 3,
+      "columns": 3,
+      "cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "type": "enemy",
+          "enemy": {
+            "id": "enemy-3-22-1276874082088200",
+            "name": "Dragon",
+            "level": 1,
+            "combatType": "Cuerpo a cuerpo",
+            "health": 12,
+            "attack": 5,
+            "speed": 2,
+            "difficultyLabel": "Dificil",
+            "summoned": false,
+            "phaseTwo": false,
+            "skipTurns": 0,
+            "immunePlayerTurns": 0,
+            "finalJudgmentCountdown": 0
+          }
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-5",
+          "targetPosition": {
+            "row": 4,
+            "column": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-23",
+      "name": "Sala secundaria 14",
+      "rows": 3,
+      "columns": 3,
+      "cells": [
+        {
+          "row": 0,
+          "column": 1,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-7",
+          "targetPosition": {
+            "row": 5,
+            "column": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "habitacion-24",
+      "name": "Sala secundaria cerrada",
+      "rows": 5,
+      "columns": 5,
+      "cells": [
+        {
+          "row": 0,
+          "column": 2,
+          "type": "door",
+          "open": false,
+          "targetRoomId": "habitacion-6",
+          "targetPosition": {
+            "row": 0,
+            "column": 4
+          },
+          "requiredKeyId": "llave-demoniaca"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "type": "object",
+          "object": {
+            "id": "weapon-4-demonic",
+            "name": "arco celestial",
+            "healing": 0,
+            "maxHealthBonus": 0,
+            "damageBonus": 1,
+            "defenseBonus": 0,
+            "movementBonus": 0,
+            "weaponCombatType": "A distancia",
+            "type": "weapon"
+          }
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "from": "habitacion-0",
+      "to": "habitacion-1"
+    },
+    {
+      "from": "habitacion-0",
+      "to": "habitacion-12"
+    },
+    {
+      "from": "habitacion-0",
+      "to": "habitacion-13"
+    },
+    {
+      "from": "habitacion-1",
+      "to": "habitacion-0"
+    },
+    {
+      "from": "habitacion-1",
+      "to": "habitacion-2"
+    },
+    {
+      "from": "habitacion-1",
+      "to": "habitacion-14"
+    },
+    {
+      "from": "habitacion-1",
+      "to": "habitacion-15"
+    },
+    {
+      "from": "habitacion-2",
+      "to": "habitacion-1"
+    },
+    {
+      "from": "habitacion-2",
+      "to": "habitacion-3"
+    },
+    {
+      "from": "habitacion-2",
+      "to": "habitacion-16"
+    },
+    {
+      "from": "habitacion-2",
+      "to": "habitacion-17"
+    },
+    {
+      "from": "habitacion-3",
+      "to": "habitacion-2"
+    },
+    {
+      "from": "habitacion-3",
+      "to": "habitacion-4"
+    },
+    {
+      "from": "habitacion-3",
+      "to": "habitacion-11"
+    },
+    {
+      "from": "habitacion-3",
+      "to": "habitacion-18"
+    },
+    {
+      "from": "habitacion-4",
+      "to": "habitacion-3"
+    },
+    {
+      "from": "habitacion-4",
+      "to": "habitacion-5"
+    },
+    {
+      "from": "habitacion-4",
+      "to": "habitacion-19"
+    },
+    {
+      "from": "habitacion-4",
+      "to": "habitacion-20"
+    },
+    {
+      "from": "habitacion-5",
+      "to": "habitacion-4"
+    },
+    {
+      "from": "habitacion-5",
+      "to": "habitacion-6"
+    },
+    {
+      "from": "habitacion-5",
+      "to": "habitacion-21"
+    },
+    {
+      "from": "habitacion-5",
+      "to": "habitacion-22"
+    },
+    {
+      "from": "habitacion-6",
+      "to": "habitacion-5"
+    },
+    {
+      "from": "habitacion-6",
+      "to": "habitacion-7"
+    },
+    {
+      "from": "habitacion-6",
+      "to": "habitacion-10"
+    },
+    {
+      "from": "habitacion-6",
+      "to": "habitacion-24"
+    },
+    {
+      "from": "habitacion-7",
+      "to": "habitacion-6"
+    },
+    {
+      "from": "habitacion-7",
+      "to": "habitacion-8"
+    },
+    {
+      "from": "habitacion-7",
+      "to": "habitacion-23"
+    },
+    {
+      "from": "habitacion-8",
+      "to": "habitacion-7"
+    },
+    {
+      "from": "habitacion-8",
+      "to": "habitacion-9"
+    },
+    {
+      "from": "habitacion-9",
+      "to": "habitacion-8"
+    },
+    {
+      "from": "habitacion-10",
+      "to": "habitacion-6"
+    },
+    {
+      "from": "habitacion-11",
+      "to": "habitacion-3"
+    },
+    {
+      "from": "habitacion-12",
+      "to": "habitacion-0"
+    },
+    {
+      "from": "habitacion-13",
+      "to": "habitacion-0"
+    },
+    {
+      "from": "habitacion-14",
+      "to": "habitacion-1"
+    },
+    {
+      "from": "habitacion-15",
+      "to": "habitacion-1"
+    },
+    {
+      "from": "habitacion-16",
+      "to": "habitacion-2"
+    },
+    {
+      "from": "habitacion-17",
+      "to": "habitacion-2"
+    },
+    {
+      "from": "habitacion-18",
+      "to": "habitacion-3"
+    },
+    {
+      "from": "habitacion-19",
+      "to": "habitacion-4"
+    },
+    {
+      "from": "habitacion-20",
+      "to": "habitacion-4"
+    },
+    {
+      "from": "habitacion-21",
+      "to": "habitacion-5"
+    },
+    {
+      "from": "habitacion-22",
+      "to": "habitacion-5"
+    },
+    {
+      "from": "habitacion-23",
+      "to": "habitacion-7"
+    },
+    {
+      "from": "habitacion-24",
+      "to": "habitacion-6"
+    }
+  ],
+  "areaEffects": [],
+  "log": [
+    "Red de 25 habitaciones generada",
+    "Clase seleccionada: Guerrero",
+    "Partida iniciada",
+    "Partida configurada: Partida1.json",
+    "Dificultad seleccionada: Dificil",
+    "Personaje seleccionado: GUERRERO",
+    "El jugador se mueve a (2,1)",
+    "El jugador abre una puerta",
+    "El turno del jugador se agota y pasa al enemigo",
+    "El jugador pasa turno",
+    "Turno de enemigos",
+    "Turno del jugador. Turnos restantes: 499",
+    "El jugador se mueve a (2,0)",
+    "El jugador entra en Sala secundaria 3",
+    "No quedan movimientos: se pasa turno automaticamente",
+    "El jugador pasa turno",
+    "Turno de enemigos",
+    "Rata rabiosa se mueve a (1,0)",
+    "Rata rabiosa ataca por 3",
+    "Rata rabiosa se mueve a (1,3)",
+    "Turno del jugador. Turnos restantes: 498",
+    "Error al intentar mover: No se puede entrar en (1,0)",
+    "El jugador ataca a Rata rabiosa por 6",
+    "Rata rabiosa ha sido derrotado",
+    "Rata rabiosa suelta 1 moneda",
+    "No quedan acciones: se pasa turno automaticamente",
+    "El jugador pasa turno",
+    "Turno de enemigos",
+    "Rata rabiosa se mueve a (2,3)",
+    "Turno del jugador. Turnos restantes: 497",
+    "Error al intentar recoger: No hay objeto en esa celda",
+    "El jugador recoge 2 monedas",
+    "El jugador se mueve a (2,1)",
+    "El turno del jugador se agota y pasa al enemigo",
+    "El jugador pasa turno",
+    "Turno de enemigos",
+    "Rata rabiosa se mueve a (2,2)",
+    "Rata rabiosa ataca por 4",
+    "Turno del jugador. Turnos restantes: 496",
+    "El jugador ataca a Rata rabiosa por 6",
+    "Rata rabiosa ha sido derrotado",
+    "Rata rabiosa suelta 1 moneda",
+    "El jugador se mueve a (2,0)",
+    "El jugador entra en Habitacion 0",
+    "El turno del jugador se agota y pasa al enemigo",
+    "El jugador pasa turno",
+    "Turno de enemigos",
+    "Turno del jugador. Turnos restantes: 495",
+    "El jugador se mueve a (2,1)",
+    "El jugador recoge Pocion De Vida",
+    "El turno del jugador se agota y pasa al enemigo",
+    "El jugador pasa turno",
+    "Turno de enemigos",
+    "Turno del jugador. Turnos restantes: 494",
+    "El jugador usa Pocion De Vida",
+    "El jugador se mueve a (2,2)",
+    "No quedan movimientos: se pasa turno automaticamente",
+    "El jugador pasa turno",
+    "Turno de enemigos",
+    "Turno del jugador. Turnos restantes: 493",
+    "El jugador se mueve a (2,3)",
+    "El jugador abre una puerta",
+    "El turno del jugador se agota y pasa al enemigo",
+    "El jugador pasa turno",
+    "Turno de enemigos",
+    "Turno del jugador. Turnos restantes: 492"
+  ]
+}

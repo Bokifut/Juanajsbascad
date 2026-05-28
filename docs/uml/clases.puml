@@ -1,0 +1,37 @@
+@startuml
+interface GameActions
+interface Repository
+
+class GameEngine
+class GameState
+class Room
+class Cell
+class Player
+class Enemy
+class GameObject
+class Position
+class GameLog
+class GridGraph
+class MyList
+class MyQueue
+class MyStack
+class GameJsonRepository
+
+GameActions <|.. GameEngine
+Repository <|.. GameJsonRepository
+GameEngine --> GameState
+GameState --> Room
+GameState --> Player
+GameState --> GameLog
+Room *-- Cell
+Cell --> Position
+Cell o-- Enemy
+Cell o-- GameObject
+Player --> Position
+Player *-- MyList
+GameLog *-- MyList
+GridGraph --> Room
+GridGraph --> MyQueue
+GridGraph --> MyList
+GameJsonRepository --> GameState
+@enduml

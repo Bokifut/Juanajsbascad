@@ -1,0 +1,26 @@
+@startuml
+actor Jugador
+participant "HelloApplication" as UI
+participant "GameEngine" as Engine
+participant "Room" as Room
+participant "Cell" as Cell
+participant "Enemy" as Enemy
+participant "GameLog" as Log
+
+Jugador -> UI: pulsa Atacar
+UI -> Engine: attack(direccion)
+Engine -> Room: getCell(posicion contigua)
+Room --> Engine: Cell
+Engine -> Cell: getEnemy()
+Cell --> Engine: Enemy
+Engine -> Enemy: receiveDamage(ataqueJugador)
+Engine -> Log: add("El jugador ataca...")
+alt enemigo derrotado
+  Engine -> Cell: clearEnemy()
+  Engine -> Log: add("enemigo derrotado")
+else enemigo vivo
+  Engine -> Enemy: getAttack()
+  Engine -> Log: add("contraataca")
+end
+UI -> UI: refresh()
+@enduml

@@ -1,0 +1,22 @@
+@startuml
+left to right direction
+actor Jugador
+
+rectangle "Juego Final Supremo" {
+  usecase "Moverse" as UC1
+  usecase "Atacar enemigo contiguo" as UC2
+  usecase "Recoger objeto contiguo" as UC3
+  usecase "Usar inventario" as UC4
+  usecase "Abrir puerta contigua" as UC5
+  usecase "Guardar partida JSON" as UC6
+  usecase "Consultar log" as UC7
+}
+
+Jugador --> UC1
+Jugador --> UC2
+Jugador --> UC3
+Jugador --> UC4
+Jugador --> UC5
+Jugador --> UC6
+Jugador --> UC7
+@enduml
